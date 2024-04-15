@@ -5,16 +5,16 @@ public class Main {
 	public static void main(String[] args) {
 		int numero = 0;   
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese un número entero:");
+        System.out.println("Ingresar un número entero:");
 
         if (scanner.hasNextInt()) {           
             numero = scanner.nextInt();          
             if (numero % 2 != 0) {               
                 int resultado = numero * 2;
-                System.out.println("El número ingresado es impar, entonces su doble es: " + resultado);
+                System.out.println("Número impar: " + resultado);
             } else {               
                 int resultado = numero * 3;
-                System.out.println("El número ingresado es par, entonces su triple es: " + resultado);
+                System.out.println("Número par:" + resultado);
             }
         } else {
             
