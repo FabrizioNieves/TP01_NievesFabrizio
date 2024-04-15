@@ -12,7 +12,7 @@ public class Main {
                 if (numero >= 1 && numero <= 9) {
                     break;
                 } else {
-                    System.out.println("Número no permitido, ingrese nuevamente el valor:");
+                    System.out.println("Número fuera de rango, ingrese nuevamente el valor:");
                 }
             } else {
                 System.out.println("Dato incorrecto, ingresar un número entero:");
