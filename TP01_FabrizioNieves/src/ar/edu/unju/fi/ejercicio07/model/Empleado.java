@@ -5,7 +5,7 @@
 	    private double salario;
 
 	    public static final double SALARIO_MINIMO = 210_000.00;
-	    public static final double AUMENTO_MEritos = 20_000.00;
+	    public static final double AUMENTO_Meritos = 20_000.00;
 
 	    public Empleado(String nombre, int legajo, double salario) {
 	        this.nombre = nombre;
@@ -24,6 +24,6 @@
 	    }
 
 	    public void darAumento() {
-	        salario += AUMENTO_MEritos;
+	        salario += AUMENTO_Meritos;
 	    }
 	}
